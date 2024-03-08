@@ -1,0 +1,91 @@
+
+body {
+  background-color: #f8f9fa;
+}
+
+
+.SumContainer {
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+.SumHeader {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.InputBox {
+  width: calc(100% - 70px);
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.InputBox:focus {
+  border-color: #007bff;
+}
+
+
+.ButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Button {
+  width: 60px;
+  height: 40px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.AddButton {
+  background-color: #28a745;
+  color: white;
+}
+
+.AddButton:hover {
+  background-color: #218838;
+}
+
+
+.DeleteButton {
+  background-color: #dc3545;
+  color: white;
+}
+
+.DeleteButton:hover {
+  background-color: #c82333;
+}
+
+
+.TotalSum {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #007bff;
+  text-align: center;
+}
+
+
+.ErrorMessage {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  color: red;
+}

@@ -1,0 +1,204 @@
+.TaskBox {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.TaskContent {
+  display: flex;
+  margin-right: 10px;
+  align-items: start;
+  flex-direction: column;
+}
+.NewAddTaskButton {
+  display: flex;
+  margin-top: 10px;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+  margin-right: 20px;
+}
+.AddTaskButton {
+  height: 50px;
+  width: 130px;
+  margin-bottom: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.AddTaskText {
+  font-size: 20px;
+  margin-bottom: 1px;
+  font-weight: 600;
+}
+.AddTaskButton:hover {
+  background-color: darkblue;
+}
+.TaskTitle {
+  font-size: 25px;
+  margin-bottom: 1px;
+  font-weight: 600;
+}
+
+.ButtonContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.EditButton {
+  margin-top: 10px;
+  width: 80px;
+  height: 30px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.EditButton:hover {
+  background-color: #0056b3;
+}
+.DeleteButton {
+  margin-top: 10px;
+  width: 80px;
+  height: 30px;
+  background-color: rgb(183, 4, 4);
+  color: white;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.DeleteButton:hover {
+  background-color: rgb(109, 3, 3);
+}
+
+.TaskInputFormsBox {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.TaskTitleInputForms, .TaskBodyInputForms {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.TaskTitleInputForms p, .TaskBodyInputForms p {
+  margin-bottom: 5px; 
+}
+
+.TaskTitleInputForms input, .TaskBodyInputForms input {
+  width: 100%; 
+}
+
+@media (min-width: 768px) {
+  .TaskTitleInputForms, .TaskBodyInputForms {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .TaskTitleInputForms input {
+    margin-right: 10px; 
+  }
+}
+
+input[type="text"], input[type="text"]:focus {
+  height: 40px;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+}
+
+input[type="text"]:hover {
+  border-color: #aaa;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+input[type="text"]::placeholder {
+  color: #999;
+}
+
+input[type="text"]::-webkit-input-placeholder { 
+  color: #999;
+}
+
+input[type="text"]::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+input[type="text"]:-ms-input-placeholder {
+  color: #999;
+}
+
+
+.Names{
+  font-size: 20px;
+  margin-right: 65px;
+  margin-left: 20px;
+}
+.NamesDetails{
+  font-size: 20px;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.ButtonsText{
+  font-size: 20px;
+  margin-bottom: 1px;
+  font-weight: 600;
+}
+.CancelButton{
+  margin-top: 10px;
+  width: 80px;
+  height: 30px;
+  background-color: rgba(232, 41, 41, 0.852);
+  color: white;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.CancelButton:hover {
+  background-color:darkred;
+}
+.SaveButton{
+  margin-top: 10px;
+  width: auto;
+  height: 30px;
+  background-color: rgb(25, 158, 25);
+  color: white;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.SaveButton:hover {
+  background-color:darkgreen;
+}
+.ButtonClasses{
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
